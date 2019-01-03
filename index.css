@@ -1,0 +1,26 @@
+body{
+    perspective: 400px
+}
+
+h1{
+    text-align: center
+}
+
+#areaj{
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    position: relative;
+    transform: rotateX(45deg);
+    transform-style: preserve-3d;
+    margin: auto;
+}
+
+.snake{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    opacity: .7;
+    border: solid 1px;
+}
