@@ -6,7 +6,7 @@ h1{
     text-align: center
 }
 
-#areaj{
+#areaJ{
     width: 400px;
     height: 400px;
     border: 1px solid;
@@ -23,4 +23,19 @@ h1{
     position: absolute;
     opacity: .7;
     border: solid 1px;
+}
+
+.tapa{
+    transform: translateZ(40px)
+}
+.atras{
+    transform: rotateX(90deg) translateZ(20px) translateY(20px)
+}
+
+.alante{
+    transform: rotateX(90deg) translateZ(-20px) translateY(20px)
+}
+
+.comida{
+    background-color: blue;
 }
